@@ -2,7 +2,7 @@
 /* Class = "UILabel"; text = "Product Name"; ObjectID = "3ys-cv-ATt"; */
 "3ys-cv-ATt.text" = "Produktname";
 
-/* Class = "UILabel"; text = "Unit sold"; ObjectID = "MzQ-Ki-9P3"; */
+/* Class = "UILabel"; text = "Units sold"; ObjectID = "MzQ-Ki-9P3"; */
 "MzQ-Ki-9P3.text" = "Einheiten verkauft";
 
 /* Class = "UILabel"; text = "Release Date"; ObjectID = "OOQ-Ix-DxU"; */

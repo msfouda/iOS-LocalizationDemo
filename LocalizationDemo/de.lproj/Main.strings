@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Product Name"; ObjectID = "3ys-cv-ATt"; */
+"3ys-cv-ATt.text" = "Produktname";
+
+/* Class = "UILabel"; text = "Unit sold"; ObjectID = "MzQ-Ki-9P3"; */
+"MzQ-Ki-9P3.text" = "Einheiten verkauft";
+
+/* Class = "UILabel"; text = "Release Date"; ObjectID = "OOQ-Ix-DxU"; */
+"OOQ-Ix-DxU.text" = "Veröffentlichungsdatum";
+
+/* Class = "UILabel"; text = "iPhone 6s"; ObjectID = "o51-UK-ph0"; */
+"o51-UK-ph0.text" = "iPhone 6s";
+
+/* Class = "UILabel"; text = "2015"; ObjectID = "pZ0-8M-82D"; */
+"pZ0-8M-82D.text" = "2015";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "poF-C5-8m5"; */
+"poF-C5-8m5.text" = "0";

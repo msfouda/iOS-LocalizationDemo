@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by Hesham Abd-Elmegid on 8/7/16.
+  Copyright © 2016 CareerFoundry. All rights reserved.
+*/
+
+"units" = "einheiten";
+"iOSScreenshot" = "iOSScreenshot_de";

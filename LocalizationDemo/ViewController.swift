@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         releaseDateLabel.text = formattedReleaseDate()
-        unitSoldLabel.text = formattedUnitsSold()
+        unitSoldLabel.text =  "\(formattedUnitsSold()) \(NSLocalizedString("units", comment: ""))"
+        
+        screenshotImageView.image = UIImage(named: NSLocalizedString("iOSScreenshot", comment: ""))
     }
     
     func formattedReleaseDate() -> String {

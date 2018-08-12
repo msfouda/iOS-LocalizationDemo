@@ -12,6 +12,7 @@
 		549B2FB31D57221A008FB941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549B2FB11D57221A008FB941 /* Main.storyboard */; };
 		549B2FB51D57221A008FB941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549B2FB41D57221A008FB941 /* Assets.xcassets */; };
 		549B2FB81D57221A008FB941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549B2FB61D57221A008FB941 /* LaunchScreen.storyboard */; };
+		D46F57F0212098E2006F3132 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D46F57F2212098E2006F3132 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		549B2FB91D57221A008FB941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46F57EA212091B8006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		D46F57EB212091B8006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D46F57F1212098E2006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D46F57F3212098EA006F3132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			children = (
 				549B2FAD1D57221A008FB941 /* AppDelegate.swift */,
 				549B2FAF1D57221A008FB941 /* ViewController.swift */,
+				D46F57F2212098E2006F3132 /* Localizable.strings */,
 				549B2FB11D57221A008FB941 /* Main.storyboard */,
 				549B2FB41D57221A008FB941 /* Assets.xcassets */,
 				549B2FB61D57221A008FB941 /* LaunchScreen.storyboard */,
@@ -126,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				549B2FB81D57221A008FB941 /* LaunchScreen.storyboard in Resources */,
+				D46F57F0212098E2006F3132 /* Localizable.strings in Resources */,
 				549B2FB51D57221A008FB941 /* Assets.xcassets in Resources */,
 				549B2FB31D57221A008FB941 /* Main.storyboard in Resources */,
 			);
@@ -162,6 +167,15 @@
 				D46F57EB212091B8006F3132 /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D46F57F2212098E2006F3132 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46F57F1212098E2006F3132 /* de */,
+				D46F57F3212098EA006F3132 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

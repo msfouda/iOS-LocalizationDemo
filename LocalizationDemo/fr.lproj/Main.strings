@@ -1,12 +1,12 @@
 
 /* Class = "UILabel"; text = "Product Name"; ObjectID = "3ys-cv-ATt"; */
-"3ys-cv-ATt.text" = "Product Name";
+"3ys-cv-ATt.text" = "Nom du produit";
 
 /* Class = "UILabel"; text = "Units sold"; ObjectID = "MzQ-Ki-9P3"; */
-"MzQ-Ki-9P3.text" = "Units sold";
+"MzQ-Ki-9P3.text" = "Unités vendues";
 
 /* Class = "UILabel"; text = "Release Date"; ObjectID = "OOQ-Ix-DxU"; */
-"OOQ-Ix-DxU.text" = "Release Date";
+"OOQ-Ix-DxU.text" = "Date de sortie";
 
 /* Class = "UILabel"; text = "iPhone 6s"; ObjectID = "o51-UK-ph0"; */
 "o51-UK-ph0.text" = "iPhone 6s";

@@ -23,6 +23,9 @@
 		549B2FB41D57221A008FB941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		549B2FB71D57221A008FB941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		549B2FB91D57221A008FB941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D438D20621209BCB006944EA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D438D20721209BCB006944EA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D438D20821209BE5006944EA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D46F57EA212091B8006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		D46F57EB212091B8006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D46F57F1212098E2006F3132 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 549B2FA11D57221A008FB941;
 			productRefGroup = 549B2FAB1D57221A008FB941 /* Products */;
@@ -156,6 +160,7 @@
 			children = (
 				549B2FB21D57221A008FB941 /* Base */,
 				D46F57EA212091B8006F3132 /* de */,
+				D438D20621209BCB006944EA /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			children = (
 				549B2FB71D57221A008FB941 /* Base */,
 				D46F57EB212091B8006F3132 /* de */,
+				D438D20721209BCB006944EA /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +180,7 @@
 			children = (
 				D46F57F1212098E2006F3132 /* de */,
 				D46F57F3212098EA006F3132 /* en */,
+				D438D20821209BE5006944EA /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -18,8 +18,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        releaseDateLabel.text = "September 2015"
-        unitSoldLabel.text = "thirteen million units"
+        releaseDateLabel.text = formattedReleaseDate()
+        unitSoldLabel.text = formattedUnitsSold()
     }
+    
+    func formattedReleaseDate() -> String {
+        let calendar = Calendar.current
+        var components = DateComponents()
+        components.day = 25
+        components.month = 9
+        components.year = 2015
+        let date = calendar.date(from: components)
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        return dateFormatter.string(from: date!)
+    }
+    
+    func formattedUnitsSold() -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .spellOut
+        return numberFormatter.string(from: 13000000)!
+    }
+    
 }
 
